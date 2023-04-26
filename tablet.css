@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+	nav ul {
+		display: flex;
+	}
+
+	.img-content h1 {
+		width: 577px;
+		font-size: 44px;
+	}
+
+	.img-content p {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.name {
+		text-align: center;
+	}
+
+	.footer-container {
+		height: 100px;
+	}
+}

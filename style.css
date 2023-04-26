@@ -1,0 +1,222 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	padding: 10px 0;
+	background-color: #4e4e4e;
+	text-transform: uppercase;
+}
+
+nav ul {
+	display: none;
+	gap: 46px;
+	list-style: none;
+}
+
+.navi {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.company-name {
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.disabled:hover {
+	cursor: not-allowed;
+}
+
+/* //////////////////img///////////////////////////// */
+
+.img {
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.4) url("img/wolves-big.jpg");
+	background-blend-mode: darken;
+	background-size: cover;
+	background-position: center;
+}
+
+.img-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+
+.img-content h1 {
+	/* width: 359px; */
+	margin-bottom: 50px;
+	font-size: 36px;
+}
+
+.img-content p {
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+button {
+	width: 164px;
+	height: 40px;
+	border: 3px solid #fff;
+	background: none;
+	color: #fffd;
+	transition: 1s;
+}
+
+button:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+/* ///////////////////////////section////////////////////////// */
+
+.bgc-our-specialist {
+	background: #f1f1f1;
+}
+
+.about-us {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-us h2 {
+	text-align: center;
+	padding: 50px 0;
+	font-size: 36px;
+	color: #152d41;
+}
+
+.our-specialist img {
+	margin: 0 auto;
+	width: 220px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.our-specialist {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.specialist-text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-bottom: 50px;
+}
+
+.name {
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+/* //////////////////flex////////////////////////////// */
+
+.bgc-offer {
+	background-color: #405d78;
+}
+
+.what-we-do {
+	padding: 50px 0;
+	font-size: 26px;
+	color: #fff;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding-bottom: 50px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 60px;
+}
+
+.boxes div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	background-color: #f1f1f1;
+	transition: 0.5s;
+}
+
+.special {
+	position: relative;
+}
+
+.special-contain {
+	display: flex;
+	flex-direction: column;
+}
+
+.special .orange-circle {
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #e07a64;
+}
+
+/* ////////////////////footer//////////////// */
+
+footer {
+	background: #4e4e4e;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	height: 147px;
+	max-width: 441px;
+	font-weight: 700;
+	color: white;
+}
+
+.icons {
+	display: flex;
+	gap: 18px;
+}
+.icons i {
+	font-size: 30px;
+	color: #fff;
+}
