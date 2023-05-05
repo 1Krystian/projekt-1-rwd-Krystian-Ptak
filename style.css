@@ -6,6 +6,13 @@
 	font-size: 18px;
 }
 
+@media screen and (min-width: 1024px) {
+	.header-offer-button:hover {
+		color: #000;
+		background-color: #fff;
+	}
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -15,14 +22,22 @@ html {
 	margin: 0 auto;
 }
 
-nav {
+.nav-items {
+<<<<<<< HEAD
 	padding: 10px 0;
+=======
+	padding: 15px 0;
+>>>>>>> 64d35c3a81c82666fc828afe5ae8dadee26cdf33
 	background-color: #4e4e4e;
 	text-transform: uppercase;
 }
 
-nav ul {
+.nav-items .nav-links {
+<<<<<<< HEAD
 	display: none;
+=======
+	display: flex;
+>>>>>>> 64d35c3a81c82666fc828afe5ae8dadee26cdf33
 	gap: 46px;
 	list-style: none;
 }
@@ -40,7 +55,7 @@ nav ul {
 	font-weight: 700;
 }
 
-a {
+.a-links {
 	text-decoration: none;
 	color: #fff;
 }
@@ -49,9 +64,7 @@ a {
 	cursor: not-allowed;
 }
 
-/* //////////////////img///////////////////////////// */
-
-.img {
+.header-main-img {
 	height: 100vh;
 	background: rgba(0, 0, 0, 0.4) url("img/wolves-big.jpg");
 	background-blend-mode: darken;
@@ -68,17 +81,17 @@ a {
 }
 
 .img-content h1 {
-	/* width: 359px; */
+	width: 359px;
 	margin-bottom: 50px;
 	font-size: 36px;
 }
 
-.img-content p {
+.img-content .header-paragraph {
 	margin-bottom: 50px;
 	font-weight: 700;
 }
 
-button {
+.header-offer-button {
 	width: 164px;
 	height: 40px;
 	border: 3px solid #fff;
@@ -87,57 +100,72 @@ button {
 	transition: 1s;
 }
 
-button:hover {
-	color: #000;
-	background-color: #fff;
-}
-
-/* ///////////////////////////section////////////////////////// */
-
 .bgc-our-specialist {
 	background: #f1f1f1;
 }
 
+<<<<<<< HEAD
 .about-us {
 	display: flex;
 	flex-direction: column;
 }
 
-.about-us h2 {
+.about-us .about-us-header {
 	text-align: center;
 	padding: 50px 0;
+=======
+.about-us .about-us-header {
+	padding: 50px 0 78px 0;
+>>>>>>> 64d35c3a81c82666fc828afe5ae8dadee26cdf33
 	font-size: 36px;
 	color: #152d41;
 }
 
-.our-specialist img {
+.about-us-our-specialist .our-specialist-img {
+<<<<<<< HEAD
 	margin: 0 auto;
+=======
+>>>>>>> 64d35c3a81c82666fc828afe5ae8dadee26cdf33
 	width: 220px;
 	aspect-ratio: 1/1;
 	border-radius: 50%;
 	margin-bottom: 30px;
 }
 
-.our-specialist {
+.about-us-our-specialist {
+<<<<<<< HEAD
+=======
+	display: flex;
+	gap: 44px;
+}
+
+.about-us-our-specialist:nth-of-type(odd) {
+	display: flex;
+}
+
+.about-us-our-specialist:nth-of-type(even) {
+	flex-direction: row-reverse;
+	text-align: end;
+	padding: 50px 0;
+}
+
+.about-us-description {
+>>>>>>> 64d35c3a81c82666fc828afe5ae8dadee26cdf33
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 50px;
 }
 
-.specialist-text {
+<<<<<<< HEAD
+.about-us-description {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 	padding-bottom: 50px;
 }
 
-.name {
-	font-weight: 700;
-	padding-bottom: 10px;
-}
-
-/* //////////////////flex////////////////////////////// */
-
+=======
+>>>>>>> 64d35c3a81c82666fc828afe5ae8dadee26cdf33
 .bgc-offer {
 	background-color: #405d78;
 }
@@ -160,8 +188,7 @@ button:hover {
 
 .boxes {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	flex-direction: column;
 	gap: 60px;
 }
 
@@ -194,9 +221,7 @@ button:hover {
 	background-color: #e07a64;
 }
 
-/* ////////////////////footer//////////////// */
-
-footer {
+.footer {
 	background: #4e4e4e;
 }
 
@@ -216,7 +241,7 @@ footer {
 	display: flex;
 	gap: 18px;
 }
-.icons i {
+.icons .fa-brands {
 	font-size: 30px;
 	color: #fff;
 }

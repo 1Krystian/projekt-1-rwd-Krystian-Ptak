@@ -1,0 +1,56 @@
+@media screen and (min-width: 1024px) {
+	.header-offer-button:hover {
+		color: #000;
+		background-color: #fff;
+	}
+
+	.container {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.nav-items .nav-links {
+		display: flex;
+	}
+
+	.about-us .about-us-header {
+		padding: 50px 0 78px 0;
+		font-size: 36px;
+		color: #152d41;
+	}
+
+	.about-us-our-specialist {
+		gap: 44px;
+		flex-direction: row;
+	}
+	.about-us-our-specialist:nth-of-type(odd) {
+		display: flex;
+	}
+
+	.about-us-our-specialist:nth-of-type(even) {
+		flex-direction: row-reverse;
+		text-align: end;
+		padding: 50px 0;
+	}
+
+	.about-us-description {
+		justify-content: center;
+	}
+	.what-we-do {
+		font-style: 36px;
+	}
+	.services {
+		height: 700px;
+		gap: 60px;
+		flex-direction: column;
+	}
+
+	.boxes {
+		flex-direction: row;
+	}
+
+	.footer-container {
+		height: 100px;
+		color: white;
+	}
+}
